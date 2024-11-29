@@ -24,11 +24,17 @@ export const DashboardLayout = () => {
             <li>
               <a href="/app/students">🧑‍🎓 Uczniowie</a>
             </li>
+            <li>
+              <a href="/app/schedule">📅 Plan</a>
+            </li>
+            <li>
+              <a href="/app/materials">📄 Materiały</a>
+            </li>
           </ul>
         </nav>
       </aside>
       <div className="flex flex-col sm:pl-60">
-        <header className="sticky top-0 flex h-20 w-full flex-row items-center justify-end border-b-2 border-yellow-400 p-4">
+        <header className="sticky top-0 flex h-20 w-full flex-row items-center justify-end border-b-2 border-yellow-400 bg-white p-4">
           <div className="rounded bg-green-500 p-2 font-semibold text-white transition-all hover:scale-110">
             <a href="/">Wyloguj</a>
           </div>
